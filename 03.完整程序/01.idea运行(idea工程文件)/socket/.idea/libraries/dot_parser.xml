@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dot-parser">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/libs/dot-parser.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

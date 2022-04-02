@@ -1,0 +1,23 @@
+#编译
+
+	客户端程序 StagClient.java 编译
+
+	javac StagClient.java
+
+	服务器端程序 StagServer.java 编译
+
+	javac -encoding utf-8 -classpath dot-parser.jar;json-parser.jar; StagServer.java
+
+#运行
+
+	客户端程序 StagClient.java 运行
+
+	java StagClient blue #其中blue为玩家昵称 可随意设置
+
+	服务器端程序 StagServer.java 运行(使用 basic-entities.dot 和 basic-actions.json 文件)
+
+	java -classpath dot-parser.jar;json-parser.jar; StagServer basic-entities.dot basic-actions.json
+	
+	服务器端程序 StagServer.java 运行(使用 extended-entities.dot 和 extended-actions.json 文件)
+	
+	java -classpath dot-parser.jar;json-parser.jar; StagServer extended-entities.dot extended-actions.json
